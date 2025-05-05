@@ -1,41 +1,132 @@
-body{
+body {
     background-color: #EFEBE6;
 }
-.letra-titulo{
-    font-size: 128px;
-    font-family: "Montserrat Alternates";
-}
-.letra-subtitulo{
-    font-size: 32px;
-    font-family: "Montserrat Alternates";
-}
-.sub{
+
+.sub {
     font-family: "Inter";
 }
-.fondo-navbar{
+
+.fondo-navbar {
     background-color: #0009;
     padding: 17px 40px;
 }
 
 .barra-de-filtrar {
-    background: #edeae7; 
+    background: #edeae7;
     border-radius: 5px;
     overflow: hidden;
 }
-.btn-filtro {
-    padding: 10px;
-    text-align: center;
-    background: #ccc;
-    color: black;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-}
+
+
 .btn-filtro.black {
-    background: #2d2d2d; 
+    background: #2d2d2d;
     color: white;
 }
 
-.all{
-    font-family: "Roboto", sans-serif;;
+.all {
+    font-family: "Roboto", sans-serif;
+    ;
+}
+
+/* Cuando use sm */
+@media (min-width: 0px) {
+    .carta {
+        height: 510px;
+    }
+
+    .fondo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 450px;
+        z-index: -1;
+    }
+    .btn-filtro {
+        padding: 5px;
+        text-align: center;
+        background: #ccc;
+        color: black;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+    }
+    .foto-hotel{
+        width: 150px;
+        height: 170px;
+    }
+}
+
+/* Cuando use md*/
+@media (min-width: 768px) {
+    .carta {
+        height: 500px;
+    }
+
+    .fondo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 465px;
+        z-index: -1;
+    }
+    .btn-filtro {
+        padding: 10px;
+        text-align: center;
+        background: #ccc;
+        color: black;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+    }
+    .foto-hotel{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Un caso especifico porque se ve mal cuando uno va moviendo los tamanos*/
+/* Cuando use lg */
+
+
+/* Cuando use lg */
+@media (min-width: 992px) {
+    .carta {
+        height: 250px;
+    }
+
+    .letra-titulo {
+        font-size: 100px;
+        font-family: "Montserrat Alternates";
+    }
+
+    .letra-subtitulo {
+        font-size: 32px;
+        font-family: "Montserrat Alternates";
+    }
+
+    .fondo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 605px;
+        z-index: -1;
+    }
+
+    .btn-filtro {
+        padding: 10px;
+        text-align: center;
+        background: #ccc;
+        color: black;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+    }
+
+    .foto-hotel{
+        width: 200px;
+        height: 200px;
+    }
 }
