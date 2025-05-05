@@ -1,0 +1,37 @@
+body{
+    background-color: #EFEBE6;
+}
+.letra-titulo{
+    font-size: 128px;
+    font-family: "Montserrat Alternates";
+}
+.letra-subtitulo{
+    font-size: 32px;
+    font-family: "Montserrat Alternates";
+}
+.sub{
+    font-family: "Inter";
+}
+.fondo-navbar{
+    background-color: #0009;
+    padding: 17px 40px;
+}
+
+.barra-de-filtrar {
+    background: #edeae7; 
+    border-radius: 5px;
+    overflow: hidden;
+}
+.btn-filtro {
+    padding: 10px;
+    text-align: center;
+    background: #ccc;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+.btn-filtro.black {
+    background: #2d2d2d; 
+    color: white;
+}
