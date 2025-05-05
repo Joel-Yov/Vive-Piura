@@ -10,12 +10,19 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Esta es Monserrat Alternates-->
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <!--Esta es Inter-->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    <!--Esta es Roboto-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- fonts-->
     <link rel="stylesheet" href="CSS/hoteles.css">
     <title>HOTELES - Vive Piura</title>
@@ -87,39 +94,130 @@
 
     <div class="container">
         <h4 class="pt-4 letra-sub fw-bold">Encuentra alojamiento que necesitas al mejor precio</h2>
-        <p class="letra-sub fs-6 fw-bold">Buscando para el dia --00/00--</p>
-        <div class="row">
-            <div class="col-lg-3"></div>
-            <div class="d-flex barra-de-filtrar col-lg-9">
-                <button class="display-1 px-5 fs-6 btn-filtro black ms-5">Destacados</button>
-                <button class="display-1 px-5 fs-6 btn-filtro">Menos Precio</button>
-                <button class="display-1 px-5 fs-6 btn-filtro black">Mayor Precio</button>
-                <button class="display-1 px-5 fs-6 btn-filtro">Mejor Valorados</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="card bg-white rounded-4" style="height: 600px;">
-                    <p class="fs-4 mt-4 ms-5">Filtrar Por:</p>
-                    <p class="ms-5">-------------------------------</p>
-                    <input type="checkbox" name="1Estrella" id="1Estrella">
+            <p class="letra-sub fs-6 fw-bold">Buscando para el dia --00/00--</p>
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="d-flex barra-de-filtrar col-lg-9">
+                    <button class="display-1 px-5 fs-6 btn-filtro black ms-5">Destacados</button>
+                    <button class="display-1 px-5 fs-6 btn-filtro">Menos Precio</button>
+                    <button class="display-1 px-5 fs-6 btn-filtro black">Mayor Precio</button>
+                    <button class="display-1 px-5 fs-6 btn-filtro">Mejor Valorados</button>
                 </div>
             </div>
-            <div class="col-lg-9">
-                <div class="card ms-5 mt-4 shadow bg-white rounded-4" style="height: 250px;">
-                    <div class="row" style="height: 100%;">
-                        <div class="col-lg-4 d-flex justify-content-center align-items-center" style="height: 100%;">
-                            <img class="shadow-lg rounded-4" src="imagenes/HOTELES/hotel1.png" width="200" height="200">
-                          </div>                          
-                        <div class="col-lg-8 my-4">
-                            <a>Titulo De Hotel</a>
-                            <p>Ubicacion</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt non earum vel, debitis neque asperiores quas, temporibus quibusdam possimus id nostrum reprehenderit nisi molestiae impedit molestias quae nobis necessitatibus laboriosam?</p>
+            <div class="row all">
+                <div class="col-lg-3">
+                    <div class="card bg-white rounded-4" style="height: 600px;">
+                        <div class="fs-4 mt-4 ms-4">Filtrar Por:</div>
+                        <div class="ms-3">------------------------------------</div>
+                        <p class="ms-4 mb-2 fs-5">Estrellas</p>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="1Estrella" id="1Estrella">1
+                            Estrella</label>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="2Estrella" id="2Estrella">2
+                            Estrella</label>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="3Estrella" id="3Estrella">3
+                            Estrella</label>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="4Estrella" id="4Estrella">4
+                            Estrella</label>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="5Estrella" id="5Estrella">5
+                            Estrella</label>
+                        <div class="ms-3">------------------------------------</div>
+                        <p class="ms-4 mb-2 fs-5">Puntuacion</p>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="1Estrella" id="1Estrella">1
+                            Estrella</label>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="2Estrella" id="2Estrella">2
+                            Estrella</label>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="3Estrella" id="3Estrella">3
+                            Estrella</label>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="4Estrella" id="4Estrella">4
+                            Estrella</label>
+                        <label class="ms-4 mb-2"><input class="me-2" type="checkbox" name="5Estrella" id="5Estrella">5
+                            Estrella</label>
+
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="card ms-5 mt-4 shadow bg-white rounded-4" style="height: 250px;">
+                        <div class="row" style="height: 100%;">
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center"
+                                style="height: 100%;">
+                                <img class="shadow-lg rounded-4" src="imagenes/HOTELES/hotel1.png" width="200"
+                                    height="200">
+                            </div>
+                            <div class="col-lg-8 my-4">
+                                <a>Titulo De Hotel</a>
+                                <p>Ubicacion</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt non earum vel, debitis
+                                    neque asperiores quas, temporibus quibusdam possimus id nostrum reprehenderit nisi
+                                    molestiae impedit molestias quae nobis necessitatibus laboriosam?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card ms-5 mt-4 shadow bg-white rounded-4" style="height: 250px;">
+                        <div class="row" style="height: 100%;">
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center"
+                                style="height: 100%;">
+                                <img class="shadow-lg rounded-4" src="imagenes/HOTELES/hotel2.png" width="200"
+                                    height="200">
+                            </div>
+                            <div class="col-lg-8 my-4">
+                                <a>Titulo De Hotel</a>
+                                <p>Ubicacion</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt non earum vel, debitis
+                                    neque asperiores quas, temporibus quibusdam possimus id nostrum reprehenderit nisi
+                                    molestiae impedit molestias quae nobis necessitatibus laboriosam?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card ms-5 mt-4 shadow bg-white rounded-4" style="height: 250px;">
+                        <div class="row" style="height: 100%;">
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center"
+                                style="height: 100%;">
+                                <img class="shadow-lg rounded-4" src="imagenes/HOTELES/hotel3.png" width="200"
+                                    height="200">
+                            </div>
+                            <div class="col-lg-8 my-4">
+                                <a>Titulo De Hotel</a>
+                                <p>Ubicacion</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt non earum vel, debitis
+                                    neque asperiores quas, temporibus quibusdam possimus id nostrum reprehenderit nisi
+                                    molestiae impedit molestias quae nobis necessitatibus laboriosam?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card ms-5 mt-4 shadow bg-white rounded-4" style="height: 250px;">
+                        <div class="row" style="height: 100%;">
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center"
+                                style="height: 100%;">
+                                <img class="shadow-lg rounded-4" src="imagenes/HOTELES/hotel4.png" width="200"
+                                    height="200">
+                            </div>
+                            <div class="col-lg-8 my-4">
+                                <a>Titulo De Hotel</a>
+                                <p>Ubicacion</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt non earum vel, debitis
+                                    neque asperiores quas, temporibus quibusdam possimus id nostrum reprehenderit nisi
+                                    molestiae impedit molestias quae nobis necessitatibus laboriosam?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card ms-5 mt-4 shadow bg-white rounded-4" style="height: 250px;">
+                        <div class="row" style="height: 100%;">
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center"
+                                style="height: 100%;">
+                                <img class="shadow-lg rounded-4" src="imagenes/HOTELES/hotel5.png" width="200"
+                                    height="200">
+                            </div>
+                            <div class="col-lg-8 my-4">
+                                <a>Titulo De Hotel</a>
+                                <p>Ubicacion</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt non earum vel, debitis
+                                    neque asperiores quas, temporibus quibusdam possimus id nostrum reprehenderit nisi
+                                    molestiae impedit molestias quae nobis necessitatibus laboriosam?</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </body>
 
